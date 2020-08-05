@@ -1,0 +1,96 @@
+.veges{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width:300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    }
+    .price {
+    color: grey;
+    font-size: 22px;
+    }
+    .veges button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: green;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    }
+    .veges button:hover {
+    opacity: 0.7;
+    }
+    .shopping-cart{
+    display: flex; 
+    }
+    .shopping-cart2{
+    display: flex;
+    margin-top:30px
+    }
+    
+    .shopping-cart3{
+    display: flex;
+    margin-top:30px
+    }
+    
+    h1{
+    font-size: 40px;
+    }
+    
+    .shop{
+    background-color:rgb(224, 239, 240);
+    height:300px;
+    margin-top: -30px;
+    }
+    .shop h3{
+    text-align:center;
+    font-size: 25px;
+    color:green;
+    text-transform: uppercase;
+    padding:20px
+    }
+    #shop_me{
+    display: flex;
+    flex-direction: row;
+    padding-top: -50px;
+    }
+    #shop_me p{
+    font-size: 18px;
+    margin-left: 15px;
+    
+    }
+    #shop_now button{
+    text-transform:uppercase;
+    text-decoration:none;
+    display:block;
+    font-size:20px;
+    color:#BF561B;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    text-align: left;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 80%;
+    margin-top: 20px;
+    border-color: green;
+    margin-left: 15%;
+    margin-top: -5%;
+    }
+    #shop_me img{
+    border-radius: 50%;
+    margin-left: 15px;
+    }
+    #table{
+        width: 50%;
+        text-align: center;
+
+    }
+    #purchase{
+        text-align: center;
+        margin:20px
+    }
+    
+    

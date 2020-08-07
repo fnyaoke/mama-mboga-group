@@ -1,0 +1,120 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    
+    h1{
+    font-size: 40px;
+    }
+    
+    .shop{
+    background-color:rgb(224, 239, 240);
+    height:300px;
+    margin-top: -30px;
+    }
+    .shop h3{
+    text-align:center;
+    font-size: 25px;
+    color:green;
+    text-transform: uppercase;
+    padding:20px
+    }
+    #shop_me{
+    display: flex;
+    flex-direction: row;
+    padding-top: -50px;
+    }
+    #shop_me p{
+    font-size: 18px;
+    margin-left: 15px;
+    
+    }
+
+    #shop_me img{
+    border-radius: 50%;
+    margin-left: 15px;
+    }
+    #table{
+        width: 50%;
+        text-align: center;
+
+    }
+    #purchase{
+        text-align: center;
+        margin:20px
+    }
+    .shopCart {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 5%;
+        padding-top:2%;
+        padding-left: 2%;  
+    }
+    #table{
+        text-align: center;
+    }
+    #contact-us{
+        margin-top:30px;
+    }
+
+    /* nav{
+        float: right;
+    } */
+
+   nav  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+    nav  li {
+        float: left;
+      }
+      
+    nav  li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+    nav  li a:hover {
+        background-color: #111;
+        text-decoration: none;
+        color: white;
+      }
+    
